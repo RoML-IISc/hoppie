@@ -4,7 +4,7 @@ import time
 
 p.connect(p.GUI)
 p.loadURDF("plane.urdf")
-hopper = p.loadURDF("cassie/urdf/cassie_collide.urdf",[0,0,0.8], useFixedBase=False)
+hopper = p.loadURDF("hoppie/urdf/hoppie_collide.urdf",[0,0,0.8], useFixedBase=False)
 gravId = p.addUserDebugParameter("gravity",-10,10,-10)
 jointIds=[]
 paramIds=[]
